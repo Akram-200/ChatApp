@@ -608,16 +608,19 @@ body {
     margin-top: 4px;
 }
 
-.messageTime {
-    font-size: 11px;
-    color: #667781;
+.messageMeta{
+    display:flex;
+    justify-content:flex-end;
+    gap:6px;
+    margin-top:4px;
 }
 
-.messageRead {
-    font-size: 11px;
-    color: #4fc3f7;
-    font-weight: 600;
+.messageRead{
+    font-size:11px;
+    color:#4fc3f7;
+    font-weight:600;
 }
+
 .loadingRooms {
     text-align: center;
     color: var(--text-light);
